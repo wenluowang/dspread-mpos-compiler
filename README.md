@@ -7,10 +7,10 @@ charge directly from Arm for embedded software development on Windows, Linux and
 macOS operating systems.
 
 <div>
-<img src="https://raw.githubusercontent.com/metalcode-eu/windows-arm-none-eabi/master/images/Windows10.png" alt="Windows10" width="24%">
-<img src="https://raw.githubusercontent.com/metalcode-eu/windows-arm-none-eabi/master/images/GNU.png" alt="GNU" width="24%">
-<img src="https://raw.githubusercontent.com/metalcode-eu/windows-arm-none-eabi/master/images/Cortex-M.png" alt="Cortex-M" width="24%">
-<img src="https://raw.githubusercontent.com/metalcode-eu/windows-arm-none-eabi/master/images/Cortex-R.png" alt="Cortex-R" width="24%">
+<img src="https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/Windows10.png" alt="Windows10" width="24%">
+<img src="https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/GNU.png" alt="GNU" width="24%">
+<img src="https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/Cortex-M.png" alt="Cortex-M" width="24%">
+<img src="https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/Cortex-R.png" alt="Cortex-R" width="24%">
 </div>
 
 This repository is the original Windows version of the GNU Compiler from Arm 
@@ -59,25 +59,25 @@ $ cd GD001
 
 ```
 
-## Compile demo project ([dev-setup-guide.gif](images/dev-setup-guide.gif))
+## Compile demo project ([dev-setup-guide.gif](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/dev-setup-guide.gif))
 
-### 1.install `vscode-icon`([vscode-icon](images/install-vscode-icon.gif)) extension to keep project organized
+### 1.install `vscode-icon`([vscode-icon](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/install-vscode-icon.gif)) extension to keep project organized
 * File > Preferences > File Icon Theme > VSCode Icons.
-![vscode-icon](images/install-vscode-icon.gif)
+![vscode-icon](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/install-vscode-icon.gif)
 
-### 2.run [task: clean project](images/run-clean-task.gif). 
+### 2.run [task: clean project](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/run-clean-task.gif). 
 * Terminal->run task->clean project
 * Enable the `shell terminal` environment for embeded toolchain execution as below video
 
-![run-clean-task.gif](images/run-clean-task.gif)
+![run-clean-task.gif](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/run-clean-task.gif)
 
-### 3.run [task: build firmware](images/run-build-task.gif)
+### 3.run [task: build firmware](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/run-build-task.gif)
 * Terminal->run task->build firmware
-![task: build firmware](images/run-build-task.gif)
+![task: build firmware](https://raw.githubusercontent.com/wenluowang/dspread-mpos-compiler/master/images/run-build-task.gif)
 
 
 ## Download firmwre
-* Install [USB driver](../../FAQs_Document/-/tree/master/tools/pos drive.zip)
+* Install `USB driver`
 * Connect device to PC with USB cable   
 * run posupgrader.exe to load the compiled `hex` file to device
 
